@@ -1,0 +1,36 @@
+.container {
+    width: 100%;
+    padding: 20px;
+}
+
+.skills-section {
+    width: 100%;
+    background-color: #fffefe;
+    padding: 10px 20px;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    box-shadow: -1px 0px 1px 1px #a3a2a2;
+    margin-top: 5%;
+}
+
+.skills, .exercises {
+    margin-bottom: 20px;
+}
+
+.exercises {
+    max-height: 200px; /* Giới hạn chiều cao của phần bài tập */
+    overflow-y: auto; /* Hiển thị thanh cuộn dọc nếu nội dung vượt quá */
+}
+
+.exercise-item {
+    margin-bottom: 10px;
+}
+
+.exercise-details {
+    display: none; /* Ẩn nội dung chi tiết mặc định */
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-top: 10px;
+}
